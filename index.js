@@ -1,3 +1,6 @@
-import _ from "lodash";
+import appLogic from "./src/index.js";
+
 console.log("Hello, Hexlet!");
-console.log(_.last(["one", "two"]));
+
+const result = appLogic();
+console.log(result);
