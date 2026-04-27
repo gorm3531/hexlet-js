@@ -12,3 +12,12 @@ lint:
 
 build:
 	npm run build
+
+.PHONY: 
+	lint lint-fix
+
+lint:
+	npx eslint .
+
+lint-fix:
+	npx eslint --fix .
